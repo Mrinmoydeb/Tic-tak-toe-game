@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mainConatainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.Boxcontainer{
+    
+    display:grid;
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    cursor:pointer;
+}
+.innerContant{
+
+    font-size: 140px;
+    font-weight:530;
+}
+.box:nth-child(1){
+    border-left: none;
+    border-top:none ;
+}
+.box:nth-child(2){
+    border-top: none;
+}
+.box:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+.box:nth-child(4){
+    border-left: none;
+}
+
+.box:nth-child(6){
+    border-right: none;
+}
+.box:nth-child(7){
+    border-left: none;
+    border-bottom: none;
+}
+.box:nth-child(8){
+    border-bottom: none;
+}
+.box:nth-child(9){
+    border-bottom: none;
+    border-right: none;
+}
+.turnfor{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+.Btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(151, 151, 243);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.container-two{
+    margin-top:5% ;
+    display: flex;
+    gap: 50px;
+}
